@@ -8,8 +8,21 @@
 </head>
 <body>
   <!-- 1. whatever text is typed into the text area should be added to the div:
-  each separate toke (split on spaces) should be added into the div as its 
+  each separate token (split on spaces) should be added into the div as its 
   own span element. -->
+  <!-- per character -->
+
+  <!-- 1a. "take" the text in the textarea. how do we "select it" 
+          how do we get the text that is currently in the textarea -->
+          <!-- looks like this would be value https://developer.mozilla.org/en-US/docs/Web/API/HTMLTextAreaElement#instance_properties -->
+    <!-- first need a reference to the textarea -->
+    
+
+  <!-- 1b when should i do this? how about we try the input event? https://developer.mozilla.org/en-US/docs/Web/API/HTMLTextAreaElement#events -->
+
+  <!-- 1c. tokenize (split on spaces) https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split -->
+  <!-- 1d. how to add them as spans to div? 1. create a span, 2. populate/configure the span, 3. add the span to the div (make it show in the document) -->
+
   <textarea cols="30" rows="10"></textarea>
   <div></div>
 
