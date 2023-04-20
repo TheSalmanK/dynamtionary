@@ -1,0 +1,10 @@
+span {
+  text-decoration: underline;
+  text-decoration-color: red;
+  margin: 0 5px;
+}
+
+.highlight {
+  background-color: yellow;
+  text-decoration: none;
+}
